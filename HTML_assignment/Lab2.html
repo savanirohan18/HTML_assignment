@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>second</title>
+</head>
+<body>
+    <h1>form</h1>
+    <form action="">
+    <label for="fullname">Fullname:</label>
+    <input type="text" name="fullname" id="fullname" placeholder="enter fullname" required><br><br>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" placeholder="enter email" required><br><br>
+    <label for="pno">Phoneno:</label>
+    <input type="tel" name="pno" id="pno"  minlength="10" maxlength="10" placeholder="enter phone number" pattern="[7-9]{1}[0-9]{9}" required><br><br>
+    <label for="subject">subject:</label>
+    <select name="subject" id="subject" multiple size="2" required>
+        <option value="english">English</option>
+        <option value="hindi">Hindi</option>
+        <option value="sanskrit">Sanskrit</option>
+        <option value="gujrati">Gujrati</option>
+    </select><br><br>
+    <label for="quary">Quary:</label>
+    <textarea name="quary" id="quary" placeholder="enter quary" required></textarea><br><br>
+    <button>Submit</button>
+    </form>
+</body>
+</html>
